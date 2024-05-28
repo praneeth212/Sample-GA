@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My First Java Script</title>
+</head>
+<body>
+	<p>This is for conform and show</p>
+	
+	<button type="button" onclick="prompt1()">Click here to enter no</button>
+	<script type="text/javascript">
+		
+		function prompt1()
+		{
+			p=prompt("Please enter a number")
+			if(p=="06")
+			{
+				alert("you entered 6");
+			}
+			else
+			{
+				alert("you did not enter 6")
+			}
+
+		}
+		
+
+	</script>
+</body>
+</html>
